@@ -1,0 +1,7 @@
+.max-height-carousel {
+    max-height: 900px; /* Set your desired maximum height */
+    width: auto; /* Maintain aspect ratio */
+    margin: auto; /* Center the image horizontally */
+    max-width: 400px;
+  }
+  

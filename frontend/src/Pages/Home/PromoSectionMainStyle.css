@@ -1,0 +1,46 @@
+/* ImageWithHeadingAndButton.css */
+
+.image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    max-height: 90vh;
+    width: 100%;
+  }
+  
+  .overlay-container {
+    /* position: absolute; */
+    bottom: 0;
+    left: 50%;
+    /* transform: translateX(-50%); */
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    /* background: rgba(255, 255, 255, 0.7); */
+    background: rgba(239, 228, 239,0.7);
+  }
+  
+  .overlay-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .heading1{
+    font-size: 70px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .overlay-container {
+      padding: 10px;
+      background: rgba(239, 228, 239, 0.9);
+    }
+  
+    .overlay-container h1 {
+      font-size: 1.5rem;
+    }
+    .heading1{
+        font-size: 22px;
+      }
+  }
+  

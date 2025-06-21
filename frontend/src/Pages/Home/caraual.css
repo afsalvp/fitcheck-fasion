@@ -1,0 +1,14 @@
+/* Carausal.css */
+
+@media (max-width: 767px) {
+    .custom-carousel {
+      height: 100%; 
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .custom-carousel {
+      /* height: 70vh;  */
+    }
+  }
+  

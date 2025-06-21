@@ -1,0 +1,14 @@
+.desktop-view{
+  display: flex;
+  justify-content : space-between;
+}
+
+
+@media (max-width: 768px) {
+    .desktop-view {
+      display: block;
+
+
+    }
+  }
+  
